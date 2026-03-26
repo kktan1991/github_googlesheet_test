@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     
     <style>
-        /* === 保留了你所有的原始 CSS 样式，未做任何删减 === */
+        
         :root {
             --bg-base: #050B14;
             --bg-surface: rgba(15, 23, 42, 0.6);
@@ -254,10 +254,10 @@
     </footer>
 
     <script>
-        // 【重要】将下面的 URL 替换为你刚才在 GAS 部署生成的 Web App URL
+        
         const API_URL = "https://script.google.com/macros/s/AKfycbyH_a00AH3-DM36sk-lWwFWVzRJkzpT_fx6K9to5CLEmuCRRkPtOIJA_LZVAqs43ux_/exec";
 
-        // 打字机特效函数
+        
         function startTypewriter(textToType) {
             const typeElement = document.getElementById('typewriter-text');
             typeElement.innerHTML = '<span id="text-container"></span><span class="cursor"></span>';
@@ -339,7 +339,7 @@
             }
         }
 
-        // 移动端菜单逻辑
+        
         document.addEventListener('DOMContentLoaded', () => {
             const hamburger = document.getElementById('hamburger');
             const navLinks = document.getElementById('nav-links');
@@ -354,7 +354,7 @@
                 });
             });
 
-            // 页面加载完成后，立刻发起 API 请求
+            
             fetchDatabase();
         });
     </script>
